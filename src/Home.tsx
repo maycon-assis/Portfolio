@@ -13,50 +13,60 @@ const stackIcons = [
 const Home = () => {
   return (
     <div className="flex flex-col gap-32  justify-start items-center h-screen">
-      <div className="flex flex-wrap border-4 justify-around flex-shrink-0 items-center border-gray-600 w-8/12 h-3/6 ">
-        <h1 className=" text-6xl text-gray-600 w-1/2">Maycon Assis</h1>
+      <div className="flex flex-wrap border-4 justify-around flex-shrink-0 items-center border-gray-600 w-8/12 h-3/6 shadow-lg ">
+        <h1 className=" text-8xl text-gray-600 w-1/2">Maycon Assis</h1>
         <a href="https://github.com/maycon-assis" target="_blank">
           <img className=" h-24" src="../public/github.png" alt="" />
         </a>
-        <p className=" w-1/2">
-          Heya/Ola👋<br></br> I'm an easygoing person who loves living life and seeing every experience as an opportunity to grow! Brazilian born but Kiwi raised. I was halfway through an engineering
-          degree when I decided to pivot into tech, and I haven't looked back since. I have a knack for problem-solving and bringing the right approach to challenges. I have spent the last 4 months
-          learning the craft and honing my skills, which I hope to use to positively impact people's lives. I have an undying passion for music and the guitar, two things which pretty much feel like
-          an inseparable part of me now 🎵.
+        <p className="  text-gray-600 text-2xl w-1/2">
+          After stumbling upon a programming paper during my engineering degree, I was immediately drawn tothe world of software engineering. Fully immersing myself in the art of building software, I
+          haveconstantly honed my problem-solving and algorithmic thinking skills. Collaborating with others to tacklenew challenges and expand my knowledge is what truly excites and motivates me.
+          When I'm not at mykeyboard, you can find me jamming away on my guitar, as music is an undying passion that is aninseparable part of who I am 🎵
         </p>
         <a href="https://www.linkedin.com/in/maycon-assis-nz/" target="_blank">
           <img className="h-24" src="../public/linkedin.png"></img>
         </a>
       </div>
-      <div className="flex justify-around items-center flex-shrink-0 bg-gray-300 l h-48 w-8/12 border-4 border-gray-600 ">
+      <div className="flex justify-around items-center shadow-lg flex-shrink-0 bg-gray-300 l h-48 w-8/12 border-4 border-gray-600 ">
         {stackIcons.map((icon, i) => (
           <img className="h-24" key={i} src={icon} alt={`Icon-${i}`}></img>
         ))}
       </div>
       <div id="work" className="flex flex-wrap gap-y-40 justify-around w-full ">
         <div className="flex justify-center w-1/2">
-          <img className="" src="../public/Todo.png" alt="Todo-image" />
+          <img className="border-4 border-gray-500 shadow-2xl" src="../public/Todo.png" alt="Todo-image" />
         </div>
-        <div className=" flex items-center w-1/2">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat. Bibendum ut tristique et
-            egestas quis ipsum suspendisse ultrices gravida. Ornare lectus sit amet est placerat in egestas erat imperdiet. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque.
-            Libero justo laoreet sit amet cursus sit amet dictum sit. Accumsan in nisl nisi scelerisque. Et netus et malesuada fames. Risus nec feugiat in fermentum posuere urna nec tincidunt. Tempor
-            id eu nisl nunc. Ut lectus arcu bibendum at. Et tortor consequat id porta nibh venenatis cras. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Ac auctor augue mauris
-            augue neque gravida in fermentum et. Et netus et malesuada fames ac.
+        <div className=" flex flex-col justify-around flex-wrap items-center w-1/2">
+          <h2 className=" text-6xl text-gray-500">TODO</h2>
+          <p className="text-3xl text-gray-600 w-3/4 ">
+            This is a brief description of a minimalist to-do list app that incorporates full-stack development and features like Redux and AsyncThunk. The app was built using React for the front-end,
+            Express for the back-end, and Sqlite for the database. The project provided an opportunity to learn and work with new tools and frameworks while building a functional and practical
+            application.
           </p>
+          <div className="flex gap-10">
+            <a className=" cursor-pointer" href=" https://maycons-todo-23.devacademy.nz/" target="_blank">
+              <img className="h-14" src="../public/live.png" alt="" />
+            </a>
+            <a className=" cursor-pointer" href="https://github.com/harakeke-2023/todo-full-stack/tree/maycon" target="_blank">
+              <img className="h-14" src="../public/sourcecode.png" alt="" />
+            </a>
+          </div>
         </div>
-        <div className="flex justify-center w-1/2">
-          <img className="" src="../public/Todo.png" alt="Todo-image" />
+        <div className="flex justify-center items-center w-1/2">
+          <img className="border-4 border-gray-500 h-4/5 shadow-2xl" src="../public/sipMain.png" alt="Todo-image" />
         </div>
-        <div className=" flex items-center w-1/2">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Euismod in pellentesque massa placerat. Bibendum ut tristique et
-            egestas quis ipsum suspendisse ultrices gravida. Ornare lectus sit amet est placerat in egestas erat imperdiet. Cursus risus at ultrices mi tempus imperdiet nulla malesuada pellentesque.
-            Libero justo laoreet sit amet cursus sit amet dictum sit. Accumsan in nisl nisi scelerisque. Et netus et malesuada fames. Risus nec feugiat in fermentum posuere urna nec tincidunt. Tempor
-            id eu nisl nunc. Ut lectus arcu bibendum at. Et tortor consequat id porta nibh venenatis cras. Platea dictumst quisque sagittis purus sit amet volutpat consequat. Ac auctor augue mauris
-            augue neque gravida in fermentum et. Et netus et malesuada fames ac.
+        <div className=" flex flex-col justify-evenly flex-wrap items-center w-1/2">
+          <h2 className=" text-6xl text-gray-500">SIP(SELF-IMPROVEMENT)</h2>
+          <p className="text-3xl text-gray-600 w-3/4">
+            In collaboration with a team of five, I developed a task manager app called SIP. It gamified self-improvement by allowing users to track progress and visualize goals with accurate time
+            representations and intuitive charts. As the Product Owner, I proposed the concept and focused on backend development, setting up and maintaining the database, API, and server-side routes.
+            I also contributed to frontend features like charts and a live countdown timer.
           </p>
+          <div className="flex gap-10">
+            <a className=" cursor-pointer" href="https://github.com/harakeke-2023/sip" target="_blank">
+              <img className="h-14" src="../public/sourcecode.png" alt="" />
+            </a>
+          </div>
         </div>
       </div>
     </div>
