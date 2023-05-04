@@ -16,7 +16,7 @@ const Home = () => {
       <div className="flex flex-wrap border-4 justify-around flex-shrink-0 items-center border-gray-600 w-8/12 h-3/6 shadow-lg ">
         <h1 className=" text-8xl text-gray-600 w-1/2">Maycon Assis</h1>
         <a href="https://github.com/maycon-assis" target="_blank">
-          <img className=" h-24" src="https://github.com/maycon-assis/portfolio/blob/8b1e7ce9ddb252dbd1cfc4e198db820055ddca75/public/github.png" alt="" />
+          <img className=" h-24" src="github.png" alt="" />
         </a>
         <p className="  text-gray-600 text-2xl w-1/2">
           After stumbling upon a programming paper during my engineering degree, I was immediately drawn tothe world of software engineering. Fully immersing myself in the art of building software, I
