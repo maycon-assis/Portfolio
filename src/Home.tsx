@@ -1,13 +1,13 @@
 const stackIcons = [
-  '../public/html-5.png',
-  '../public/css-3.png',
-  '../public/typescript.png',
-  '../public/physics.png',
-  '../public/icons8-node-js-480.png',
-  '../public/icons8-express-js-480.png',
-  '../public/sql-server.png',
-  '../public/icons8-redux-480.png',
-  'public/icons8-tailwind-css-480.png',
+  'html-5.png',
+  'css-3.png',
+  'typescript.png',
+  'physics.png',
+  'icons8-node-js-480.png',
+  'icons8-express-js-480.png',
+  'sql-server.png',
+  'icons8-redux-480.png',
+  'icons8-tailwind-css-480.png',
 ]
 
 const Home = () => {
@@ -24,7 +24,7 @@ const Home = () => {
           When I'm not at mykeyboard, you can find me jamming away on my guitar, as music is an undying passion that is aninseparable part of who I am 🎵
         </p>
         <a href="https://www.linkedin.com/in/maycon-assis-nz/" target="_blank">
-          <img className="h-24" src="../public/linkedin.png"></img>
+          <img className="h-24" src="linkedin.png"></img>
         </a>
       </div>
       <div className="flex justify-around items-center shadow-lg flex-shrink-0 bg-gray-300 l h-48 w-8/12 border-4 border-gray-600 ">
@@ -34,7 +34,7 @@ const Home = () => {
       </div>
       <div id="work" className="flex flex-wrap gap-y-40 justify-around w-full ">
         <div className="flex justify-center w-1/2">
-          <img className="border-4 border-gray-500 shadow-2xl" src="../public/Todo.png" alt="Todo-image" />
+          <img className="border-4 border-gray-500 shadow-2xl" src="Todo.png" alt="Todo-image" />
         </div>
         <div className=" flex flex-col justify-around flex-wrap items-center w-1/2">
           <h2 className=" text-6xl text-gray-500">TODO</h2>
@@ -45,15 +45,15 @@ const Home = () => {
           </p>
           <div className="flex gap-10">
             <a className=" cursor-pointer" href=" https://maycons-todo-23.devacademy.nz/" target="_blank">
-              <img className="h-14" src="../public/live.png" alt="" />
+              <img className="h-14" src="live.png" alt="" />
             </a>
             <a className=" cursor-pointer" href="https://github.com/harakeke-2023/todo-full-stack/tree/maycon" target="_blank">
-              <img className="h-14" src="../public/sourcecode.png" alt="" />
+              <img className="h-14" src="sourcecode.png" alt="" />
             </a>
           </div>
         </div>
         <div className="flex justify-center items-center w-1/2">
-          <img className="border-4 border-gray-500 h-4/5 shadow-2xl" src="../public/sipMain.png" alt="Todo-image" />
+          <img className="border-4 border-gray-500 h-4/5 shadow-2xl" src="sipMain.png" alt="Todo-image" />
         </div>
         <div className=" flex flex-col justify-evenly flex-wrap items-center w-1/2">
           <h2 className=" text-6xl text-gray-500">SIP(SELF-IMPROVEMENT)</h2>
@@ -64,7 +64,7 @@ const Home = () => {
           </p>
           <div className="flex gap-10">
             <a className=" cursor-pointer" href="https://github.com/harakeke-2023/sip" target="_blank">
-              <img className="h-14" src="../public/sourcecode.png" alt="" />
+              <img className="h-14" src="sourcecode.png" alt="" />
             </a>
           </div>
         </div>

@@ -11,7 +11,7 @@ function Navbar() {
         </li>
 
         <li className="text-gray-600 hover:text-orange-500 font-bold duration-300 ease-in-out cursor-pointer">
-          <a href="src/cv/Maycon-Assis-2023-Resume.pdf " target="_blank" rel="noopener noreferrer">
+          <a href="Maycon-Assis-2023-Resume.pdf " target="_blank" rel="noopener noreferrer">
             RESUME
           </a>
         </li>
