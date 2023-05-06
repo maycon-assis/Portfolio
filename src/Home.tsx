@@ -19,9 +19,10 @@ const Home = () => {
           <img className=" h-24" src="github.png" alt="" />
         </a>
         <p className="  text-gray-600 text-2xl w-1/2">
-          After stumbling upon a programming paper during my engineering degree, I was immediately drawn tothe world of software engineering. Fully immersing myself in the art of building software, I
-          haveconstantly honed my problem-solving and algorithmic thinking skills. Collaborating with others to tacklenew challenges and expand my knowledge is what truly excites and motivates me.
-          When I'm not at mykeyboard, you can find me jamming away on my guitar, as music is an undying passion that is aninseparable part of who I am 🎵
+          After stumbling upon a programming paper during my engineering degree, I was immediately drawn to the world of software engineering. Fully immersing myself in the art of building software, I
+          have constantly honed my problem-solving and algorithmic thinking skills. I am most enthusiastic and driven when I work collaboratively with others to take on new and complex challenges, as
+          it fuels my curiosity and expands my knowledge. When I'm not at my keyboard, you can find me jamming away on my guitar, as music is an undying passion that is an inseparable part of who I
+          am. 🎵
         </p>
         <a href="https://www.linkedin.com/in/maycon-assis-nz/" target="_blank">
           <img className="h-24" src="linkedin.png"></img>
