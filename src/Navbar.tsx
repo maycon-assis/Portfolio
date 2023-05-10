@@ -2,18 +2,31 @@ import { Link } from 'react-scroll'
 
 function Navbar() {
   return (
-    <nav className="container mx-auto px-4 h-56 flex items-center justify-center">
-      <ul className="flex gap-96 lg:text-5xl ">
-        <li className="text-gray-600 hover:text-orange-500 font-bold duration-300 font-lora ease-in-out cursor-pointer">
-          <Link activeClass="active" to="work" spy={true} smooth={true} duration={700}>
+    <nav className="flex py-10 mb-10 justify-center">
+      <ul className="flex gap-12 sm:gap-28 md:gap-44 lg:gap-96 text-2xl sm:text-3xl md:text-4xl lg:text-5xl ">
+        <li>
+          <Link
+            className="text-gray-600 px-4 py-2 border-8 rounded-md  hover:text-orange-500 font-bold duration-300 font-lora ease-in-out cursor-pointer"
+            activeClass="active"
+            to="work"
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
             WORK
           </Link>
         </li>
-
-        <li className="l text-gray-600 hover:text-orange-500 font-bold duration-300 font-lora ease-in-out cursor-pointer">
-          <a href="Maycon-Assis-2023-Resume.pdf " target="_blank" rel="noopener noreferrer">
+        <li>
+          <Link
+            className="text-gray-600 px-4 py-2 border-8 rounded-md  hover:text-cyan-500 font-bold duration-300 font-lora ease-in-out cursor-pointer"
+            activeClass="active"
+            to="Maycon-Assis-2023-Resume.pdf "
+            spy={true}
+            smooth={true}
+            duration={700}
+          >
             RESUME
-          </a>
+          </Link>
         </li>
       </ul>
     </nav>
