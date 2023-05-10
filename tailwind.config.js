@@ -2,10 +2,13 @@
 export default {
   content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
   theme: {
-    fontFamily: {
-      sans: ['Roboto', 'sans-serif'],
+    extend: {
+      fontFamily: {
+        lora: "'Lora', serif",
+        dm: "'DM Mono', monospace",
+        robo: "'Roboto', sans-serif",
+      },
     },
-    extend: {},
   },
   plugins: [],
 }
