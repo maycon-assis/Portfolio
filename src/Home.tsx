@@ -31,9 +31,7 @@ const Home = () => {
       <div className="lg:flex gap-10 justify-center ">
         <div className=" py-12 sm:py-14 md:py-16 lg:py-24 shadow-2xl text-center p-10 ">
           <h3 className="pb-3 font-lora text-lg text-blue-900 sm:text-xl md:text-2xl lg:text-3xl">FRONT-END TOOLS</h3>
-          <p className="py-3 sm:text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto  leading-7 text-gray-700">
-            Used to create web applications that are interactive, accessible, and engaging. These technologies have worked for me like a dream.
-          </p>
+
           <div className="py-3 text-5xl flex justify-center gap-6 text-blue-900 ">
             <AiOutlineHtml5 />
             <SiTailwindcss />
@@ -43,9 +41,7 @@ const Home = () => {
         </div>
         <div className="py-12  sm:py-14 md:py-16 lg:py-24 shadow-2xl text-center p-10 ">
           <h3 className="pb-3 font-lora text-lg text-orange-300 sm:text-xl md:text-2xl lg:text-3xl">BACK-END TOOLS</h3>
-          <p className="py-3 leading-7 sm:text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto text-gray-700">
-            Great for building REST APIs that enable efficient communication between the front end and server-side components.
-          </p>
+
           <div className="py-3 text-5xl flex justify-center gap-6 text-orange-300 ">
             <FaNodeJs />
             <SiExpress />
