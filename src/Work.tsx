@@ -1,7 +1,7 @@
 function Work() {
   return (
     <>
-      <div id="work" className="py-12 sm:py-14 md:py-16 lg:py-24 text text-center">
+      <div id="work" className="pt-24 sm:pt-28 md:pt-32 lg:pt-48 text text-center">
         <h2 className="font-lora text-lg sm:text-xl md:text-2xl lg:text-3xl">PORTFOLIO</h2>
         <p className="py-3 leading-7 text-gray-700 sm:text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto">
           On this journey, nothing has been more exciting than creating projects that not only solve problems for myself and others but also bring a sense of enjoyment in the development process.
