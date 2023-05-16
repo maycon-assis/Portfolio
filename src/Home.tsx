@@ -20,12 +20,12 @@ const Home = () => {
         </p>
       </div>
       <div className="text-5xl flex justify-center gap-6  text-gray-500 py-10 sm:py-14 md:py-16 lg:py-24">
-        <a href="https://www.linkedin.com/in/maycon-assis-nz/" target="_blank" rel="noopener noreferrer">
-          <AiFillLinkedin />
-        </a>
-        <a href="https://github.com/maycon-assis" target="_blank" rel="noopener noreferrer">
+        <motion.a whileHover={{ scale: 1.1 }} href="https://www.linkedin.com/in/maycon-assis-nz/" target="_blank" rel="noopener noreferrer">
+          <AiFillLinkedin style={{ imageRendering: 'crisp-edges' }} />
+        </motion.a>
+        <motion.a whileHover={{ scale: 1.1 }} href="https://github.com/maycon-assis" target="_blank" rel="noopener noreferrer">
           <AiFillGithub />
-        </a>
+        </motion.a>
       </div>
 
       <div className="lg:flex gap-10 justify-center ">

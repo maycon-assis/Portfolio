@@ -1,6 +1,17 @@
+import { useState } from 'react'
+import Project from './Project'
+
 function Work() {
+  const [isOpen, setIsOpen] = useState(false)
+  const [img, setimg] = useState('')
+
   return (
     <>
+      {isOpen && (
+        <div className="flex justify-center items-center fixed top-0 left-0 z-10 h-screen w-screen text-center  " style={{ backgroundColor: 'rgba(0,0,0,0.6)' }}>
+          <Project img={img} />
+        </div>
+      )}
       <div id="work" className="pt-24 sm:pt-28 md:pt-32 lg:pt-48 text text-center">
         <h2 className="font-lora text-lg sm:text-xl md:text-2xl lg:text-3xl">PORTFOLIO</h2>
         <p className="py-3 leading-7 text-gray-700 sm:text-lg md:text-xl lg:text-2xl max-w-3xl mx-auto">
@@ -10,14 +21,20 @@ function Work() {
       </div>
       <div>
         <div className="flex justify-center py-12">
-          <a className="cursor-pointer" href="https://github.com/harakeke-2023/todo-full-stack/tree/maycon" target="_blank">
-            <img src="Todo.png" />
-          </a>
+          <button
+            className="cursor-pointer"
+            onClick={() => {
+              setimg(() => 'Todo.png')
+              setIsOpen(() => true)
+            }}
+          >
+            <img src="Todo.png" className="shadow-2xl" />
+          </button>
         </div>
-        <hr />
+
         <div className="flex justify-center py-12">
           <a className=" cursor-pointer" href="https://github.com/harakeke-2023/sip" target="_blank">
-            <img src="sipMain.png" />
+            <img src="sipMain.png" className=" shadow-2xl" />
           </a>
         </div>
       </div>
